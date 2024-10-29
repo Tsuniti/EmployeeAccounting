@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+
+<header>
+    <a href="../staff/all">
+        <h2>All staff</h2>
+    </a>
+    <a href="../staff/form">
+        <h2>Add employee</h2>
+    </a>
+</header>
+<hr>
+
+<!-- RenderBody() будет вставлять вместо себя код страницы, на которую мы зашли -->
+@RenderBody()
+
+<hr>
+<h1>Footer</h1>
+
+</body>
+</html>

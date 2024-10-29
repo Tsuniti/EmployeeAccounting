@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+header a {
+    margin: 0 20px;
+    border: 2px solid black;
+    padding: 0 20px;
+    border-radius: 15px;
+}
+
+.employee-block {
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+

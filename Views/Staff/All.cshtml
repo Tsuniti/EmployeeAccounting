@@ -1,0 +1,17 @@
+@model EmployeesViewModel
+@{
+    ViewBag.Title = "Employees list";
+}
+
+<h2>Employees:</h2>
+
+@foreach (Employee employee in Model.Employees)
+{
+    <a href="./employee?id=@employee.Id">
+        <div class="employee-block">
+            <p>Id: @employee.Id</p>
+            <p>Name: @employee.Name</p>
+            <p>Position: @employee.Position</p>
+        </div>
+    </a>
+}
